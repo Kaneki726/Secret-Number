@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+ 
+body {
+	background:url(./pictures/anime-background-34.jpg) no-repeat center top / cover;
+	background-attachment: fixed;
+	font-family: 'Lobster', cursive;
+	
+}
+
+h1, h2 {
+	color: aliceblue;
+}
+
+button {
+	height: 40px;
+	border-radius: 10px;
+	background: rgb(255, 255, 255);
+	color:rgba(54, 4, 83, 0.7);
+	vertical-align: top;
+	margin-top: 15px;
+	-webkit-box-shadow: 10px 18px 34px 1px rgba(146,90,209,1);
+	-moz-box-shadow: 10px 18px 34px 1px rgba(146,90,209,1);
+	box-shadow: 10px 18px 34px 1px rgba(146,90,209,1);
+	transition: 1s;
+	border: none;
+	padding: 0 20px;
+	font-size: 15px;
+	margin-bottom: 20px;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+input {
+	display: block;
+	background-color: rgba(0, 0, 0, 0.137);
+	border-radius: 5px;
+	width: 400px;
+	height: 40px;
+	color: white;
+	margin-top: 10px;
+	border: 2px solid white;
+	-webkit-box-shadow: 10px 18px 34px 1px rgba(146,90,209,1);
+	-moz-box-shadow: 10px 18px 34px 1px rgba(146,90,209,1);
+	box-shadow: 10px 18px 34px 1px rgba(146,90,209,1);
+	transition: 1s;
+	margin: auto;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+input:hover {
+	-webkit-box-shadow: 10px 18px 34px 1px rgb(90, 209, 126);
+	-moz-box-shadow: 10px 18px 34px 1px rgba(90, 209, 126);
+	box-shadow: 10px 18px 34px 1px rgba(90, 209, 126)
+}
+input::placeholder{
+	color: rgba(255, 255, 255, 0.26);
+}
+form {
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.308);
+	width: 450px;
+	margin: auto;
+}
+
+button:hover {
+	-webkit-box-shadow: 10px 18px 34px 1px rgb(90, 209, 126);
+	-moz-box-shadow: 10px 18px 34px 1px rgba(90, 209, 126);
+	box-shadow: 10px 18px 34px 1px rgba(90, 209, 126)
+}
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	color: aliceblue;
+}
